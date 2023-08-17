@@ -1,0 +1,82 @@
+/* start global variable */
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    padding: 15px 0;
+    margin: 0 auto;
+}
+
+/* small devices */
+@media (min-width: 768px){
+    .container{
+        width: 750px;
+    }
+}
+
+/* mid devices */
+@media (min-width: 992px){
+    .container{
+        width: 970px;
+    }
+}
+
+/* large devices */
+@media (min-width: 1200px){
+    .container{
+        width: 1170px;
+    }
+}
+
+/* start global variable */
+
+
+/* start form */
+form{
+    padding: 20px 10px;
+    display: flex;
+    background: #7775;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+form .input{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 10px 20px;
+}
+
+.input label{
+    font-size: 25px;
+    font-weight: normal;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.input input{
+    padding: 20px 10px;
+    border: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    box-shadow: 1px 7px 12px #2222;
+}
+
+.input input:focus{
+    outline: none;
+}
+
+
+
+/* end form */
